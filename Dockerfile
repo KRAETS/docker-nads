@@ -4,6 +4,7 @@ RUN apt-get update && apt-get upgrade
 ARG DEBIAN_FRONTEND=noninteractive
 COPY requirements.txt .
 RUN apt-get install -y snmp 
+RUN apt-get install python-software-properties -y
 RUN apt-get -y install libxml2-dev libxslt1-dev python-dev
 RUN apt-get -y install zlib1g-dev
 RUN apt-get -y install python-pip python-dev build-essential
