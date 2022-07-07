@@ -5,4 +5,4 @@ urllib3==1.11
 watchdog==0.8.3
 python-igraph==0.7.1.post6
 python-iptables==0.10.0
-requests==2.2.1
+requests==2.20.0
